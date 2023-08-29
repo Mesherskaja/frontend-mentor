@@ -1,0 +1,66 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: hsl(0, 0%, 100%);
+   font-family: 'Outfit', sans-serif;
+   font-size: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.container{
+   width: 350px;
+   height: 550px;
+   border-radius: 20px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+  
+.qr-code{
+   width: 100%;
+   border-radius: 10px;
+   margin-bottom: 30px;
+}
+
+.text{
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.text > h2 {
+   color: hsl(218, 44%, 22%);
+   font-weight: 700;
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+}
+
+.text__p{
+   color: hsl(220, 15%, 55%);
+   font-weight: 400;
+   line-height: 1.5rem;
+   padding : 0 20px;
+}
+
+.attribution {
+   font-size: 11px;
+   text-align: center;
+   padding: 20px;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+   color: hsl(229, 71%, 13%);
+}
