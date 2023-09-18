@@ -1,24 +1,126 @@
 :root{
+   font-size: 16px;
    --cyan: hsl(179, 62%, 43%);
    --bright-yellow: hsl(71, 73%, 54%);
    --light-gray: hsl(204, 43%, 93%);
    --grayish-blue: hsl(218, 22%, 67%);
+   font-family: Big Shoulders Display, cursive;
+   font-family: Karla, sans-serif;
+   font-family: Lexend Deca, sans-serif;
+}
+
+body{
+   background-color: var(--light-gray);
 }
 
 .wrapper{
-   background-color: var(--light-gray);
    min-height: 100vh;
    display: flex;
    flex-direction: column;
-   align-items: center;
+   text-align: center;
    justify-content: center;
+   
 }
 
 .container{
-   background-color: var(--light-gray);
-   min-height: 100vh;
    display: flex;
    flex-direction: column;
-   align-items: center;
    justify-content: center;
+   align-items: center;
+   flex: 1;
+  }
+
+.section{
+    width: 370px;
+    padding: 1.5rem;
+    text-align: left;
+}
+
+ p{
+   color: var(--light-gray);
+   font-family: Lexend Deca, sans-serif;
+   font-size: 1rem;
+   line-height: 1.5rem;
+   letter-spacing: 1px;
+}
+
+.title{
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      font-weight: 700;
+      font-family: Karla, sans-serif;
+      color: var(--light-gray);
+      letter-spacing: 1px;
+   }
+
+.join{
+   background-color: white;
+   color: var(--grayish-blue);
+   h1{
+      color: var(--cyan);
+   }
+   h2{
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      font-weight: 700;
+      color: var(--bright-yellow);
+      font-family: Lexend Deca, sans-serif;
+      letter-spacing: 1px;
+      line-height: 1.5;
+   }
+   p{
+      color: var(--grayish-blue);
+      line-height: 2;
+   }      
+   border-radius: 10px 10px 0 0;
+}
+
+.price{
+   background-color: var(--cyan);
+   color: white;
+   p{
+     .dollar{
+      font-size: 3rem;
+      font-family: Karla, sans-serif;
+      padding-right: 7px;
+      } 
+   }
+   a{
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      font-family: Karla, sans-serif;
+      letter-spacing: 1px;
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      background-color: var(--bright-yellow);
+      font-size: 1rem;
+      margin-top: 2rem;
+
+   }
+}
+
+.features{
+   background-color: hsl(179, 62%, 43%, 0.5);
+   color: --grayish-blue;
+   p{
+      line-height: 1.7;
+   }
+   border-radius: 0 0 10px 10px;
+}
+
+.attribution{
+   font-size: 11px;
+   text-align: center;
+   color: black;
+   font-family: Karla, sans-serif;
+   letter-spacing: 1px;
+   flex-shrink: 0;
+   a{
+      color: var(--cyan);
+      text-decoration: none;
+      font-weight: 700;
+      font-family: Karla, sans-serif;
+      letter-spacing: 1px;
+   }
 }
