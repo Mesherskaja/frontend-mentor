@@ -9,11 +9,8 @@
    font-family: Lexend Deca, sans-serif;
 }
 
-body{
-   background-color: var(--light-gray);
-}
-
 .wrapper{
+   background-color: var(--light-gray);
    min-height: 100vh;
    display: flex;
    flex-direction: column;
@@ -78,12 +75,23 @@ body{
 .price{
    background-color: var(--cyan);
    color: white;
+   height: 250px;
    p{
      .dollar{
       font-size: 3rem;
       font-family: Karla, sans-serif;
       padding-right: 7px;
       } 
+      .month{
+         color: var(--grayish-blue);
+         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+         vertical-align: top;
+      }
+      margin-bottom: 10px;
+     
+   }
+   .empty{
+      height: 25px;
    }
    a{
       color: white;
@@ -91,12 +99,11 @@ body{
       font-weight: 700;
       font-family: Karla, sans-serif;
       letter-spacing: 1px;
-      padding: 1rem 2rem;
+      padding: 1rem 7rem;
       border-radius: 10px;
       background-color: var(--bright-yellow);
       font-size: 1rem;
-      margin-top: 2rem;
-
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
    }
 }
 
@@ -122,5 +129,22 @@ body{
       font-weight: 700;
       font-family: Karla, sans-serif;
       letter-spacing: 1px;
+   }
+}
+
+@media (min-width: 768px){
+   .container{
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+   }
+   .section{
+      width: 100%;
+      max-width: 370px;
+      padding: 1.5rem;
+      text-align: left;
+      margin-bottom: 2rem;
+
    }
 }
