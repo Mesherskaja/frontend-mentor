@@ -12,7 +12,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
+
 
 ### Links
 
@@ -21,7 +22,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@Mesherskaja](https://www.frontendmentor.io/profile/Mesherskaja)
 
 
