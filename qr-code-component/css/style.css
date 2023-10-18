@@ -66,5 +66,10 @@ body{
 
 .attribution a:hover {
    color: hsl(229, 71%, 13%);
-   
+}
+
+@media (max-width: 375px) {
+   .attribution{
+      display: none;
+   }
 }
