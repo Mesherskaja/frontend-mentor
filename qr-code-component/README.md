@@ -30,7 +30,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Built with
 
 - Semantic HTML5 markup
-- BEM
 - CSS custom properties
 - Flexbox
 - Pseudo-class: hover
